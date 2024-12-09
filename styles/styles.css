@@ -60,4 +60,41 @@ body, h1, h2, p, input, button {
   #search-button:hover {
     background-color: #0056b3;
   }
+
+
+  
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    #search-bar {
+      width: 100%;
+    }
+  
+    #results-container {
+      flex-direction: column;
+    }
+  
+    .result-item {
+      flex: 1 1 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 0.9rem;
+    }
+  
+    #search-button {
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+  }
   
