@@ -6,3 +6,9 @@ body, h1, h2, p, input, button {
     font-family: Arial, sans-serif;
   }
   
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
