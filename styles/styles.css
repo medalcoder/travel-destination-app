@@ -61,7 +61,29 @@ body, h1, h2, p, input, button {
     background-color: #0056b3;
   }
 
-
+  #search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #results-section {
+    margin-top: 2rem;
+  }
+  
+  #results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .result-item {
+    flex: 1 1 calc(33.333% - 1rem);
+    background: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
   
 footer {
     text-align: center;
